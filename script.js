@@ -18,7 +18,7 @@ const GRAVITY = 1;
 const JUMP = 45;
 const GAME_SPEED = 3;
 
-const PIPE_GAP = 200;
+const PIPE_GAP = 150;
 const PIPE_DISTANCE = 350;
 
 // ---------- GAME STATE ----------
@@ -184,3 +184,4 @@ restartBtn.onclick = () => {
 
 // ---------- INIT ----------
 startGame();
+
