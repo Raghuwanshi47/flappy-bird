@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="scoreBoard">
+    <div>Score: <span id="score">0</span></div>
+    <div>Best: <span id="bestScore">0</span></div>
+</div>
+
+<div id="game">
+    <img id="bird" src="bird.png">
+    <div id="tapHint">Tap / Press Space</div>
+</div>
+
+<div id="gameOver">
+    <h2>Game Over</h2>
+    <p>Score: <span id="finalScore">0</span></p>
+    <p>Best: <span id="finalBest">0</span></p>
+    <button id="restartBtn">Restart</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
